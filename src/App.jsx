@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="bg-slate-900 text-slate-100 min-h-screen" id='home'>
+    <div id='home'>
       <Nav />
       <main className="pt-24">
         <Hero />

@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
 
   return (
     <section
-      className="relative py-28 px-6"
+      className="relative py-28 px-6 mt-10"
       id="projects"
     >
       <div className="max-w-7xl mx-auto">

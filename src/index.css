@@ -7,3 +7,7 @@ html, body {
   font-family: ui-sans-serif, system-ui;
   scroll-behavior: smooth;
 }
+
+body {
+  background: linear-gradient(to bottom, #050b1d, #020617);
+}

@@ -1,6 +1,6 @@
 const WorkExperience = () => {
   return (
-    <section id="experience" className="relative py-24">
+    <section id="experience" className="relative py-24 pb-32">
       {/* Section Header */}
       <div className="text-center mb-20">
         <h2 className="text-4xl font-bold text-white">
