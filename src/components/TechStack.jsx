@@ -77,8 +77,8 @@ export default function TechStack() {
 
 function TechCard({ icon: Icon, name }) {
   return (
-    <div className="min-w-[120px] h-[120px] rounded-xl bg-white/5 border border-white/10 backdrop-blur flex flex-col items-center justify-center gap-2 hover:scale-105 transition">
-      <Icon className="text-4xl text-white" />
+    <div className="min-w-[80px] h-[80px] rounded-xl bg-white/5 border border-white/10 backdrop-blur flex flex-col items-center justify-center gap-2 hover:scale-105 transition">
+      <Icon className="text-3xl text-white" />
       <span className="text-sm text-white/70">{name}</span>
     </div>
   );
