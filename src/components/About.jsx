@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative w-full py-32 px-6 text-white"
+      className="relative w-full py-32 px-6 text-white scroll-mt-24" 
     >
       <div className="max-w-4xl mx-auto text-center">
 

@@ -7,11 +7,14 @@ import Services from './components/Services'
 import Stats from './components/Stats'
 import FeaturedProjects from './components/Featured Project'
 import WorkExperience from './components/WorkExperience'
+import CallToAction from './components/CallToAction'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 export default function App() {
   return (
-    <div className="bg-slate-900 text-slate-100 min-h-screen">
+    <div className="bg-slate-900 text-slate-100 min-h-screen" id='home'>
       <Nav />
       <main className="pt-24">
         <Hero />
@@ -22,6 +25,9 @@ export default function App() {
         <Stats />
         <FeaturedProjects />
         <WorkExperience />
+        <CallToAction />
+        <Contact />
+        <Footer />
          
         
       </main>

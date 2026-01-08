@@ -27,13 +27,15 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="bg-white text-black px-6 py-3 rounded-full font-medium hover:opacity-90">
+            <a href="#projects" className="bg-white text-black px-6 py-3 rounded-full font-medium hover:opacity-90">
               View Projects
-            </button>
+            </a>
 
-            <button className="border border-white/30 px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
-              Contact Me →
-            </button>
+            <a href="#contact" 
+               className="text-white border border-white/20 px-5 py-2 rounded-full hover:bg-white hover:text-black transition">
+              Contact Me → 
+          
+            </a>
           </div>
         </div>
 
