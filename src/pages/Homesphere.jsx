@@ -1,4 +1,4 @@
-import HomeSpheres from "../assets/Homesphereimg.png"
+import Img2 from "../assets/Homesphereimg.png"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
@@ -52,7 +52,7 @@ export default function Homesphere() {
         {/* Image Section */}
         <div className="mb-20">
           <img
-            src={HomeSpheres}
+            src={Img2}
             alt="Campus Space preview"
             className="w-full rounded-2xl shadow-xl"
           />
