@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import img1 from "../assets/Homesphereimg.png";
+import img1 from "../assets/HomesphereImg.png";
 
 export default function FeaturedProjects() {
   const projects = [

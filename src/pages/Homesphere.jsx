@@ -1,4 +1,4 @@
-import Img2 from "../assets/Homesphereimg.png"
+import Img2 from "../assets/HomesphereImg.png"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
