@@ -68,15 +68,15 @@ export default function Homesphere() {
             </h2>
 
             <ul className="space-y-4 text-white/80">
-              <li>✔ User authentication and authorization with JWT</li>
-              <li>✔ Real-time messaging and notifications using WebSocket</li>
-              <li>✔ Business profile creation and management</li>
-              <li>✔ Event creation and management</li>
-              <li>✔ Marketplace for buying and selling</li>
-              <li>✔ Social feed with posts, likes, and comments</li>
-              <li>✔ Search across users, businesses, and events</li>
-              <li>✔ Ads management for businesses</li>
-              <li>✔ Payment integration for transactions</li>
+              <li>✔ Secure user authentication and authorization (JWT-based)</li>
+              <li>✔ Property listing and management for landlords and agents</li>
+              <li>✔ Upload and manage multiple property images</li>
+              <li>✔ Property availability tracking (Available / Rented / Sold)</li>
+              <li>✔ User dashboard with property statistics</li>
+              <li>✔ Location-based property search and filtering</li>
+              <li>✔ Mobile-first, responsive property browsing</li>
+              <li>✔ Contact agent functionality for direct communication</li>
+              <li>✔ Admin only edit and delete controls</li>
             </ul>
           </div>
 
