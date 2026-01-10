@@ -1,4 +1,5 @@
 import { Github, Home, Mail, Linkedin, X } from "lucide-react";
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
@@ -13,7 +14,7 @@ export default function Navbar() {
 
           {/* Center icons */}
           <div className="flex items-center gap-6 bg-black/40 backdrop-blur-md px-6 py-3 rounded-full border border-white/10">
-            <a href="#home" className="text-white/70 hover:text-white">🏠</a>
+            <Link to="/" className="text-white/70 hover:text-white">🏠</Link>
 
             <a
               href="https://github.com/Dresaint"
@@ -58,9 +59,9 @@ export default function Navbar() {
       <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50 md:hidden">
         <div className="flex items-center gap-6 px-6 py-3 rounded-full bg-black/70 backdrop-blur-md border border-white/10 shadow-lg">
           
-          <a href="#home" className="text-white/70 hover:text-white transition">
+          <Link to="/" className="text-white/70 hover:text-white transition">
             <Home size={18} />
-          </a>
+          </Link>
 
           <a
             href="https://github.com/Dresaint"

@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom"
+import img1 from "../assets/Homesphereimg.png";
+
 export default function FeaturedProjects() {
   const projects = [
     {
-      title: "Campus Space",
+      title: "HomeSphere",
       category: "Full Stack",
       description:
-        "Social and business platform for Nigerian university students",
-      tech: ["Next.js", "Node.js", "MongoDB", "+2"],
-      image: "/projects/campus-space.png",
+        "Smart housing platform for renters, agents, and landlords in Nigeria",
+      tech: ["React.js", "Node.js", "MongoDB", "+2"],
+      image: img1,
       featured: true,
     },
     {
@@ -33,8 +36,9 @@ export default function FeaturedProjects() {
     <section
       className="relative py-28 px-6 mt-10"
       id="projects"
+      
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto" >
 
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -48,14 +52,14 @@ export default function FeaturedProjects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8" hover:scale-105 transition>
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md overflow-hidden hover:border-white/20 transition"
+              className="group relative rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md overflow-hidden hover:scale-105 transition-transform duration-500 ease-out"
             >
               {/* Image */}
-              <div className="relative">
+              <div className="relative hover:scale-105 transition-transform duration-500 ease-out" >
                 <img
                   src={project.image}
                   alt={project.title}
@@ -95,9 +99,11 @@ export default function FeaturedProjects() {
                 </div>
 
                 {/* Button */}
-                <button className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-black font-medium hover:bg-white/90 transition">
+                <Link
+                  to="/projects/homesphere"
+                  className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-black font-medium hover:bg-white/90 transition">
                   View Project →
-                </button>
+                </Link>
               </div>
             </div>
           ))}

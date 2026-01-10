@@ -14,13 +14,14 @@ export default function Services() {
       </div>
 
       {/* Services grid */}
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8" >
         <ServiceCard
           icon="💻"
           title="Website Development"
           subtitle="Frontend & Backend"
           description="I build responsive, high-performance web applications using modern frameworks. From pixel-perfect frontends to scalable backend architectures."
           tags={["JavaScript", "React", "Next.js", "Node.js", "Python", "PHP"]}
+          
         />
 
         <ServiceCard

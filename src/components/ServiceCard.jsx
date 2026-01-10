@@ -1,6 +1,6 @@
 export default function ServiceCard({ icon, title, subtitle, description, tags }) {
   return (
-    <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-md hover:border-white/20 transition">
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-md hover:scale-105 transition-transform duration-500 ease-out">
       <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-white text-black mb-6">
         {icon}
       </div>

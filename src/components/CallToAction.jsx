@@ -21,7 +21,7 @@ export default function CallToAction() {
 
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#contact" className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white text-black font-medium hover:scale-105 transition">
+            <a href="#contact" className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white text-black font-medium hover:scale-110 transition">
               Get In Touch →
             </a>
 
