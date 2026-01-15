@@ -6,6 +6,7 @@ html, body {
   height: 100%;
   font-family: ui-sans-serif, system-ui;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {

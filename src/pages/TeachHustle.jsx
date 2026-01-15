@@ -1,9 +1,8 @@
-import Img2 from "../assets/HomesphereImg.png"
+import Img3 from "../assets/TeachustleImg.png"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
-export default function Homesphere() {
-  
+export default function TeachHustle() {
   return (
     
     <section className="relative px-6 py-24 text-white" id="homeSphere">
@@ -23,7 +22,7 @@ export default function Homesphere() {
         {/* Badges */}
         <div className="flex items-center gap-3 mb-6">
           <span className="px-4 py-1 rounded-full bg-white/10 text-sm">
-            Full Stack
+            Frontend
           </span>
           <span className="px-4 py-1 rounded-full bg-yellow-400 text-black text-sm font-medium">
             ★ Featured Project
@@ -32,13 +31,13 @@ export default function Homesphere() {
 
         {/* Title */}
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          HomeSphere
+          TeachHustle
         </h1>
 
         {/* Description + CTA */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-10 mb-16">
           <p className="max-w-3xl text-white/60 leading-relaxed">
-            HomeSphere is a smart housing platform that connects renters with agents and landlords across Nigeria. It simplifies property discovery, promotes transparency, and helps users find the right home without stress.
+            TeachHustle empowers learners with practical skills, mentorship, and resources needed to turn knowledge into hustle, helping individuals grow, earn, and stay competitive in today’s economy.
 
           </p>
 
@@ -53,7 +52,7 @@ export default function Homesphere() {
         {/* Image Section */}
         <div className="mb-20">
           <img
-            src={Img2}
+            src={Img3}
             alt="Campus Space preview"
             className="w-full rounded-2xl shadow-xl"
           />
@@ -70,14 +69,14 @@ export default function Homesphere() {
 
             <ul className="space-y-4 text-white/80">
               <li>✔ Secure user authentication and authorization (JWT-based)</li>
-              <li>✔ Property listing and management for landlords and agents</li>
-              <li>✔ Upload and manage multiple property images</li>
-              <li>✔ Property availability tracking (Available / Rented / Sold)</li>
-              <li>✔ User dashboard with property statistics</li>
-              <li>✔ Location-based property search and filtering</li>
-              <li>✔ Mobile-first, responsive property browsing</li>
-              <li>✔ Contact agent functionality for direct communication</li>
-              <li>✔ Admin only edit and delete controls</li>
+              <li>✔ User profile creation and skill portfolio management</li>
+              <li>✔ Course creation and management for instructors</li>
+              <li>✔ Structured learning paths and skill-based courses</li>
+              <li>✔ Student dashboard with learning progress and achievements</li>
+              <li>✔ Location-based and category-based course discovery</li>
+              <li>✔ Mobile-first, responsive learning experience </li>
+              <li>✔ Instructor–student messaging and communication</li>
+              <li>✔ Admin-only course approval, edit, and delete controls</li>
             </ul>
           </div>
 
@@ -95,7 +94,7 @@ export default function Homesphere() {
                   "React.js",
                   "Node.js",
                   "MongoDB",
-                  "React Native",
+                  
                   "Express.js",
                 ].map((tech) => (
                   <span
@@ -117,12 +116,12 @@ export default function Homesphere() {
 
               <div>
                 <p className="text-white/50 text-sm">YEAR</p>
-                <p className="font-medium">2025</p>
+                <p className="font-medium">2024</p>
               </div>
 
               <div>
                 <p className="text-white/50 text-sm">ROLE</p>
-                <p className="font-medium">Lead Fullstack Developer</p>
+                <p className="font-medium">Lead Frontend Developer</p>
               </div>
             </div>
           </div>

@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom"
 import img1 from "../assets/HomesphereImg.png";
+import img3 from "../assets/TeachustleImg.png";
+
 
 export default function FeaturedProjects() {
   const projects = [
     {
       title: "HomeSphere",
+      slug:  "homesphere",
       category: "Full Stack",
       description:
         "Smart housing platform for renters, agents, and landlords in Nigeria",
@@ -14,6 +17,7 @@ export default function FeaturedProjects() {
     },
     {
       title: "Sui Marketplace",
+      slug: "sui-marketplace",
       category: "Web3",
       description:
         "Decentralized marketplace on Sui blockchain for digital assets",
@@ -22,12 +26,13 @@ export default function FeaturedProjects() {
       featured: true,
     },
     {
-      title: "MoviesFlix",
+      title: "TeachHustle",
+      slug: "teachhustle",
       category: "Frontend",
       description:
-        "Unlimited movies and TV shows streaming platform",
-      tech: ["Next.js", "React", "TypeScript", "+2"],
-      image: "/projects/moviesflix.png",
+        "Skill-building platform for learning practical, income-driven skills",
+      tech: ["Node.js", "React", "MongoDB", "+2"],
+      image: img3,
       featured: true,
     },
   ]
@@ -100,7 +105,7 @@ export default function FeaturedProjects() {
 
                 {/* Button */}
                 <Link
-                  to="/projects/homesphere"
+                  to={`projects/${project.slug}`}
                   className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-black font-medium hover:bg-white/90 transition">
                   View Project →
                 </Link>
