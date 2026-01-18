@@ -16,9 +16,9 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            I’m <span className="text-blue-500">Damilare Daniels</span> <br />
-            I build impactful websites, <br />
-            apps and modern solutions.
+            I am <span className="text-blue-500">Damilare Daniels</span> <br />
+            I build impactful web applications, <br />
+            and modern digital solutions.
           </h1>
 
           <p className="text-white/70 mt-6 max-w-xl">
